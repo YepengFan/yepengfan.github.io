@@ -4,13 +4,115 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-02-11T18:02:18+11:00</updated>
+<updated>2015-02-11T20:50:02+11:00</updated>
 <id>/</id>
 <author>
   <name>Yepeng Fan</name>
   <uri>/</uri>
   <email>yepeng.fan@hotmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Markdown Guide]]></title>
+ <link rel="alternate" type="text/html" href="/markdown/markdown-guide/" />
+  <id>/markdown/markdown-guide</id>
+  <published>2015-02-11T20:11:17+11:00</published>
+  <updated>2015-02-11T20:11:17+11:00</updated>
+  <author>
+    <name>Yepeng Fan</name>
+    <uri></uri>
+    <email>yepeng.fan@hotmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Markdown Guide&lt;/p&gt;
+
+&lt;p&gt;Guide from Github(Mastering Markdown): &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guide from &lt;a href=&quot;http://ibruce.info/2013/11/26/markdown/&quot;&gt;ibruce.info&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guide from &lt;a href=&quot;http://wowubuntu.com/markdown/&quot;&gt;Wow!Ubuntu&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/markdown/markdown-guide/&quot;&gt;Markdown Guide&lt;/a&gt; was originally published by Yepeng Fan at &lt;a href=&quot;&quot;&gt;Yepeng's Blog&lt;/a&gt; on February 11, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Git Branch Commands]]></title>
+ <link rel="alternate" type="text/html" href="/git/git-branch-commands/" />
+  <id>/git/git-branch-commands</id>
+  <published>2015-02-11T19:39:25+11:00</published>
+  <updated>2015-02-11T19:39:25+11:00</updated>
+  <author>
+    <name>Yepeng Fan</name>
+    <uri></uri>
+    <email>yepeng.fan@hotmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Here are some common use &lt;strong&gt;git branch&lt;/strong&gt; commands&lt;/p&gt;
+
+&lt;p&gt;Browse local braches&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git branch &lt;br /&gt;
+　×　dev &lt;br /&gt;
+　×　master &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;×　means the current branch&lt;/p&gt;
+
+&lt;p&gt;list remote branches&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git branch –remote &lt;br /&gt;
+　origin/dev &lt;br /&gt;
+　origin/master &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;list all the branches including local and remote, use ‘-a’ argument&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git branch -a &lt;br /&gt;
+　×　master &lt;br /&gt;
+　 　remotes/origin/HEAD -&amp;gt; origin/master &lt;br /&gt;
+　 　remotes/origin/develop &lt;br /&gt;
+　 　remotes/origin/issue_193 &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;create a branch&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git checkout -b new_branch&lt;/p&gt;
+
+&lt;p&gt;This new branch forks from current branch.&lt;/p&gt;
+
+&lt;p&gt;checkout another branch&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git checkout another_branch&lt;/p&gt;
+
+&lt;p&gt;push local branch to remote repository&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git push origin branch_name&lt;/p&gt;
+
+&lt;p&gt;If the remote repo does not have this branch, it will create a branch automatically.&lt;/p&gt;
+
+&lt;p&gt;pull remote branch to local repo&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git pull origin branch_name&lt;/p&gt;
+
+&lt;p&gt;delete local branch&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git checkout another_branch
+git branch -d branch_to_be_deleted&lt;/p&gt;
+
+&lt;p&gt;delete remote branch&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git push origin –delete branch_name&lt;/p&gt;
+
+&lt;p&gt;merge local branch&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git merge branch_to_be_merged_in&lt;/p&gt;
+
+&lt;p&gt;merge remote branch&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;git merge origin/branch_to_be_merged_in&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/git/git-branch-commands/&quot;&gt;Git Branch Commands&lt;/a&gt; was originally published by Yepeng Fan at &lt;a href=&quot;&quot;&gt;Yepeng's Blog&lt;/a&gt; on February 11, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
