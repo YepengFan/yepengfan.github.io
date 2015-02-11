@@ -1,4 +1,4 @@
-title:            Yepeng's Blog
+title:            Tech Serendipity
 description:      Everything is about engineering.
 disqus_shortname: yepengfan
 reading_time:     true
@@ -11,14 +11,14 @@ url:
 owner:
   name:           Yepeng Fan
   avatar:         avatar.jpg
-  bio:            "I am a student of University of Melbourne, taking the course of master of software engineering."
+  bio:            "passion in technology since high school, specialising in software since undergrad."
   email:          yepeng.fan@hotmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook: fanyepeng
+  facebook:
   github: YepengFan
   stackexchange:
-  linkedin: 
+  linkedin: yepeng-fan
   instagram:
   flickr:
   tumblr:
