@@ -173,7 +173,7 @@ some_condition.nil? ? handle_true_condition : handle_false_condition
 {% endhighlight %}
 
 ### Readable Code
-{% highlight ruby %}
+{% highlight ruby linenos %}
 # Composing Methods for Humans
 
 class TextComressor
