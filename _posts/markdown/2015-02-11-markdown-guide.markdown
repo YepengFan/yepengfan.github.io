@@ -6,7 +6,7 @@ categories: markdown
 description:
 tags: [markdown]
 image:
-  feature:
+  feature: markdown banner.png
   credit:
   creditlink:
 comments:

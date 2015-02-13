@@ -6,7 +6,7 @@ categories: ruby
 description:
 tags: [rvm]
 image:
-  feature:
+  feature: RoR Banner.jpg
   credit:
   creditlink:
 comments:
