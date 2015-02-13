@@ -6,7 +6,7 @@ categories: git
 description:
 tags: [git]
 image:
-  feature:
+  feature: git banner white.png
   credit:
   creditlink:
 comments:
